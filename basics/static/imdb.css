@@ -1,0 +1,171 @@
+body{
+    background-image: url('imdb.png');
+    background-repeat: no-repeat;
+    width: 1455px;
+    height: 2000px;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: aliceblue;
+    
+}
+div{
+  color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  top: 0px;
+  left: 80px;
+  padding: 4px;
+}
+
+
+.formm{
+    position: relative;
+  top: 200px;
+  left: 415px;
+  width: 712px;
+  /* border: 2px solid black; */
+  height: 50vh;
+  border-radius: 30px;
+}
+
+.tag{
+    position: relative;
+    top: 0px;
+    left: 99px;
+    font-family: cursive;
+    text-align: center;
+    width: fit-content;
+    font-size: 20px;
+}
+
+.containeer1{
+  
+  position: relative;
+  left: 200px;
+  top: 200px;
+  width: 471px;
+  height: 161px;
+  /* border: 2px solid black; */
+  display: flex;
+  height: 748px;
+  width: 179%;
+  background-color: #a0625f9e;
+    /* flex-direction: column; */
+      flex-direction: row; /*default value of flex direc */
+    /* flex-direction: row-reverse; */
+    /* wts written last is taken into consideration in css tht is flex direc row reverse is considered */
+      flex-wrap: wrap; /* flex wrap wrap means we are able to view it on phone */
+      /* or tab in computer according to its size like if screen is small the contents get wrappend */ 
+     /* flex-wrap: nowrap; default vlue of flex wrap */
+     /* *********************************************************************************************************** */
+     /* flex-flow: row wrap; */
+     /* above flex flow is property whwere we can achieve both flex direction and flex wrap by settin
+     direc as ROW and flex wrap as WRAP */
+     justify-content: center; 
+     /* justify -centre karne se cheezen centre mi aa jati hai */
+      justify-content: space-between; 
+     /* justify - space betwenn krne se space between two boxes  mi space ajati hai and not in corner run it to know */
+     justify-content: space-evenly; 
+    /* there will be EVEN  space around every box */
+    /* justify-content: space-around; */
+
+    /* using margin in this is not allowed  coz it gives equal amrgin in left and right to all tht is space aroun run it to know */
+     /* align-items: center;  */
+    /* it vertically centres aLL  The boxes */
+    /* align-items: flex-end; */
+    /* it aligns all the boxes down tol containerx run it know flex star is default propertyx */
+    /* align-items: stretch; */
+/* this gives evnly space betwen the boxes wn we wrap the content as much as we want while keeping wrap and decresing 
+the height of item run these thre to know */
+}
+
+.ip1{
+    width: 273px;
+    height: 31px;
+    border-radius: 46px;
+    padding: 2px;
+    text-align: center;
+    margin: 2px;
+    background-color: cadetblue;
+    color: white;
+  }
+  .ip1:hover{
+    border-color: black;
+  }
+    .gender:hover{
+    border-color: blue;
+    }
+ .gender{
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 3px;
+  width: 275px;
+  text-align: center;
+  background: #fcfef8fa;
+  position: relative;
+  left: -43px;
+  
+  border: 2px solid #4CAF50; /* Green border */
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  outline: none;
+  transition: 0.3s ease;
+
+ }
+ #containeer3{
+      width: 273px;
+  height: 31px;
+  border-radius: 46px;
+  padding: 2px;
+  text-align: center;
+  margin: 2px;
+  background-color: #a8c469fa;
+  color: white;
+  position: relative;
+  left: -42px;
+
+    }
+#containeer3:hover{
+        border: rgb(44, 27, 100);
+    }
+
+.ress{
+  color: white;
+  width: 273px;
+  background-color: #a8c469fa;
+  border-radius: 20px;
+  font-family: cursive;
+  margin: 4px;
+  font-size: 15px;
+  text-align: center;
+  height: 4vh;
+  padding: 2px;
+  left: -45px;
+  position: relative;
+  border-radius: 46px;
+  border: 2px solid black;
+}
+.asteroid{
+  color: white;
+ text-align: center;
+ font-size: 50px;
+ text-decoration:dotted;
+
+}
+#containeer1{
+ color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  top: 37px;
+  left: 111px;
+  padding: 4px; 
+  background-color: #0b0606d4;
+  width: 374px;
+}
