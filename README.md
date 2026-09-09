@@ -3,6 +3,8 @@
 This project implements a sentiment analysis system on IMDb movie reviews using a Long Short-Term Memory (LSTM) neural network. The project is built with Django for the web interface and leverages Keras and TensorFlow for the deep learning model.
 Project Overview
 
+<img width="1039" height="378" alt="image" src="https://github.com/user-attachments/assets/d8be00ca-bcc1-4557-8330-bd9eaeb58829" />
+
 This sentiment analysis project aims to classify movie reviews from IMDb as either positive or negative using a neural network, specifically an LSTM. The project demonstrates the application of deep learning in natural language processing (NLP) and provides a web-based interface to interact with the model.
 Motivation
 
