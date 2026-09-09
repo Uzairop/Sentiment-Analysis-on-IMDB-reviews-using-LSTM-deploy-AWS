@@ -3,15 +3,13 @@
 This project implements a sentiment analysis system on IMDb movie reviews using a Long Short-Term Memory (LSTM) neural network. The project is built with Django for the web interface and leverages Keras and TensorFlow for the deep learning model.
 Project Overview
 
-<img width="1039" height="378" alt="image" src="https://github.com/user-attachments/assets/d8be00ca-bcc1-4557-8330-bd9eaeb58829" />
-
 This sentiment analysis project aims to classify movie reviews from IMDb as either positive or negative using a neural network, specifically an LSTM. The project demonstrates the application of deep learning in natural language processing (NLP) and provides a web-based interface to interact with the model.
 Motivation
 
 Sentiment analysis is a crucial task in natural language processing, widely used in areas like market research, customer feedback, and social media monitoring. IMDb reviews are an excellent resource for understanding public sentiment towards movies. By using an LSTM model, this project can capture the sequential nature of text data, making it highly effective for sentiment prediction.
 Architecture
 
-The project consists of the following components:
+# The project consists of the following components:
 
     Frontend: Built with Django templates, HTML, and CSS, providing a user-friendly interface to input movie reviews.
     Backend: Powered by Django, handling requests, model inference, and database interactions.
@@ -51,6 +49,8 @@ Inputting Reviews
     The predicted sentiment (positive/negative) will be displayed on the screen.
 
 
+<img width="1039" height="378" alt="image" src="https://github.com/user-attachments/assets/d8be00ca-bcc1-4557-8330-bd9eaeb58829" />
+
 # Future Improvements
 
     Data Augmentation: Enhance the training dataset by including more diverse reviews to improve model accuracy.
@@ -66,3 +66,7 @@ Additional Sections Explained
     Motivation: Explains the reason behind choosing this project and its importance in the field of NLP.
     Architecture: Provides an overview of the different components that make up the project.
     Future Improvements: Suggests possible enhancements to the project, making it more robust and scalable.
+
+
+
+    
